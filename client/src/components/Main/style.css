@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+.pokemonBox {
+	margin-top: 50px;
+}
+
+
+body{
+	background: linear-gradient(#0e0f0d, #632f2f, #0e0f0d);
+	height: 1000px;
+	}
+
+
+body,
+input,
+textarea,
+select,
+button {
+  color: black;
+  font: 400 1rem "Roboto", sans-serif;
+}
