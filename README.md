@@ -17,6 +17,34 @@ cd client
 npm install
 npm start 
 ```
+server config
+```
+cd ..
+cd server
+npm install
+```
+now we have to create .env file and set JWTPRIVATEKEY, example:
+![obraz](https://github.com/SpellZZZ/Express-MongoDB-React-PokemonAPIAttempt/assets/43863065/12a8e183-3abc-4307-9eac-4299a9c47696)
+```
+npm start
+```
+
+## JWT token
+JWTs are commonly used for authentication and authorization in web applications, where they can store user information and permissions, which servers can read without needing to maintain session state.
+
+We can use Postman to check generated JWT token
+
+![obraz](https://github.com/SpellZZZ/Express-MongoDB-React-PokemonAPIAttempt/assets/43863065/165c0d7f-34de-4a1a-9977-5e799a64161d)
+
+Result
+
+![obraz](https://github.com/SpellZZZ/Express-MongoDB-React-PokemonAPIAttempt/assets/43863065/3ed4f9dd-48d8-46b3-a29a-c3fa82a73af1)
+
+
+
+
+
+
 
 
 
